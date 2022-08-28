@@ -1,0 +1,17 @@
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\net6.0\HospiEnCasa.App.Persistencia.csproj.AssemblyReference.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\net6.0\HospiEnCasa.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\net6.0\HospiEnCasa.App.Persistencia.AssemblyInfoInputs.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\net6.0\HospiEnCasa.App.Persistencia.AssemblyInfo.cs
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\net6.0\HospiEnCasa.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\bin\Debug\net6.0\HospiEnCasa.App.Persistencia.deps.json
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\bin\Debug\net6.0\HospiEnCasa.App.Persistencia.runtimeconfig.json
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\bin\Debug\net6.0\HospiEnCasa.App.Persistencia.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\bin\Debug\net6.0\HospiEnCasa.App.Persistencia.pdb
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\bin\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\bin\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\net6.0\HospiEnCasa.App.Persistencia.csproj.CopyComplete
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\net6.0\HospiEnCasa.App.Persistencia.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\net6.0\refint\HospiEnCasa.App.Persistencia.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\net6.0\HospiEnCasa.App.Persistencia.pdb
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\net6.0\HospiEnCasa.App.Persistencia.genruntimeconfig.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Persistencia\obj\Debug\net6.0\ref\HospiEnCasa.App.Persistencia.dll
