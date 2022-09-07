@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/ProyectosSoftware/MinTic/Programacion/Ciclo3/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/ProyectosSoftware/MinTic/Programacion/Ciclo3/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -23,8 +27,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectosSoftware/MinTic/Programacion/Ciclo3/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[C:/ProyectosSoftware/MinTic/Programacion/Ciclo3/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Registros.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ProyectosSoftware/MinTic/Programacion/Ciclo3/HospiEnCasa/HospiEnCasa.App/HospiEnCasa.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
