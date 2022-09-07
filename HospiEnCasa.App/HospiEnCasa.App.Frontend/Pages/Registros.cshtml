@@ -1,0 +1,317 @@
+﻿@page
+@model RegistrosModel
+@{
+    ViewData["Title"] = "Registros";
+}
+<h2>
+      <br>
+       </br>
+      <br>
+       </br>
+</h2>
+<h1>@ViewData["Title"]</h1>
+
+<!-- /contact-section -->
+ <style>
+  .botones{
+    display: flex!important;
+  }
+  .titulo{
+    margin-left: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  .contenedor{
+    margin: 4rem 4rem 5rem 6rem;
+  }
+ </style>
+
+<div class="contenedor" >
+  <div class=" mx-3 ">
+
+    <div class="col-sm-11 botones me-2" style=" color: #3E4C60">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#30b300" class="bi bi-plus-circle-fill " viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+        </svg>
+        <h5 class="titulo">Ingresar informacion veterinario</h5>
+    </div>
+    <hr/>
+    <form method="post">
+      <div class=" m-3 pt-3" >
+          <!----- Nombre ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Nombre</label>
+            <input type="text" class="form-control" name="nombreVeterinario" placeholder="Tu respuesta" id="nombreVeterinario" style="background-color: #ececec;"  required>
+          </div> 
+          <!----- Apellidos ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Apellidos</label>
+            <input type="text" class="form-control" name="apellidos" placeholder="Tu respuesta" id="apellidos" style="background-color: #ececec;"  required> 
+          </div>
+            <!----- Tarjeta Profesional ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Tarjeta Profesional</label>
+              <input type="text" class="form-control" name="tarjetaProfesional" placeholder="Tu respuesta" id="tarjetaProfesional" style="background-color: #ececec;"  required>
+          </div>  
+        
+          <!----- Edad ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Edad</label>
+              <input type="number" class="form-control" name="edad" placeholder="Tu respuesta" id="edad" style="background-color: #ececec;"  required>
+          </div>  
+          <!----- Numero Telefonico ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Numero Telefonico</label>
+            <input type="text" class="form-control" name="edad" placeholder="Tu respuesta" id="edad" style="background-color: #ececec;"  required>
+          </div>
+          <!----- Genero ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Genero</label>
+            <select name="genero" id="genero" class="form-control form-select" style="background-color: #ececec;" required>
+              <option selected disabled >Elige</option>
+              <option value="masculino">Masculino</option>
+              <option value="femenino">Femenino</option>
+          </select>
+          </div> 
+      </div>
+      <hr />
+            <div class="row">
+                <div class="col" style="text-align: right;">
+                    <a type="button" class="btn btn-warning" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                      <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                    </svg> Cancelar</a>
+                    <button type="submit" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                      <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                      <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                    </svg> Guardar</button>
+                </div>
+            </div>
+    </form>
+  </div>
+</div>
+<!-- /contact-section -->
+
+ <!-- /contact-section -->
+ 
+ <style>
+  .botones{
+    display: flex!important;
+  }
+  .titulo{
+    margin-left: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  .contenedor{
+    margin: 4rem 4rem 5rem 6rem;
+  }
+ </style>
+<div class="contenedor" >
+  <div class=" mx-3 ">
+
+    <div class="col-sm-11 botones me-2" style=" color: #3E4C60">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#30b300" class="bi bi-plus-circle-fill " viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+        </svg>
+        <h5 class="titulo"> Ingresar informacion  Nuevo Paciente</h5>
+    </div>
+    <hr/>
+    <form method="post">
+      <div class=" m-3 pt-3" >
+          
+          <!----- Nombre ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Nombre</label>
+            <input type="text" class="form-control" name="nombre" placeholder="Tu respuesta" id="nombre" style="background-color: #ececec;"  required>
+          </div> 
+          <!----- Raza ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Raza</label>
+            <input type="text" class="form-control" name="raza" placeholder="Tu respuesta" id="raza" style="background-color: #ececec;"  required> 
+          </div>
+            <!----- Direccion ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Direccion</label>
+              <input type="text" class="form-control" name="direccion" placeholder="Tu respuesta" id="direccion" style="background-color: #ececec;"  required>
+          </div>  
+        
+          <!----- Edad ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Edad</label>
+              <input type="number" class="form-control" name="edad" placeholder="Tu respuesta" id="edad" style="background-color: #ececec;"  required>
+          </div>  
+          <!----- Numero Telefonico ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Numero Telefonico</label>
+            <input type="text" class="form-control" name="numero telefonico" placeholder="Tu respuesta" id="numero telefonico" style="background-color: #ececec;"  required>
+          </div>
+
+          <!----- Diagnostico ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Diagnostico</label>
+            <input type="text" class="form-control" name="diagnostico" placeholder="Tu respuesta" id="diagnostico" style="background-color: #ececec;"  required>
+          </div>
+
+          <!----- Beneficios ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Beneficios</label>
+            <input type="text" class="form-control" name="beneficios" placeholder="Tu respuesta" id="beneficios" style="background-color: #ececec;"  required>
+          </div>
+          
+      </div>
+      <hr />
+            <div class="row">
+                <div class="col" style="text-align: right;">
+                    <a type="button" class="btn btn-warning" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                      <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                    </svg> Cancelar</a>
+                    <button type="submit" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                      <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                      <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                    </svg> Guardar</button>
+                </div>
+            </div>
+    </form>
+    
+    
+</div>
+</div>
+
+
+<!-- //contact-section -->
+
+ <!-- /contact-section -->
+ 
+ <style>
+  .botones{
+    display: flex!important;
+  }
+  .titulo{
+    margin-left: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  .contenedor{
+    margin: 4rem 4rem 5rem 6rem;
+  }
+ </style>
+<div class="contenedor" >
+  <div class=" mx-3 ">
+
+    <div class="col-sm-11 botones me-2" style=" color: #3E4C60">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#30b300" class="bi bi-plus-circle-fill " viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+        </svg>
+        <h5 class="titulo">Ingresar informacion familiar designado de un Paciente</h5>
+    </div>
+    <hr/>
+    <form method="post">
+      <div class=" m-3 pt-3" >
+          
+          <!----- Nombre familiar ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Nombre del Familiar</label>
+            <input type="text" class="form-control" name="Nombre del Familiar" placeholder="Tu respuesta" id="Nombre del Familiar" style="background-color: #ececec;"  required>
+          </div> 
+          <!----- Apellido familiar ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Apellido del Familiar</label>
+            <input type="text" class="form-control" name="Apellido del Familiar" placeholder="Tu respuesta" id="Apellido del Familiar" style="background-color: #ececec;"  required> 
+          </div>
+            <!----- Direccion del Familiar ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Direccion del Familiar</label>
+              <input type="text" class="form-control" name="Direccion del Familiar" placeholder="Tu respuesta" id="Direccion del Familiar" style="background-color: #ececec;"  required>
+          </div>  
+        
+          <!----- Edad del Familiar ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Edad del Familiar</label>
+              <input type="number" class="form-control" name="Edad del Familiar" placeholder="Tu respuesta" id="Edad del Familiar" style="background-color: #ececec;"  required>
+          </div>  
+          <!----- Numero Telefonico del Familiar ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Numero Telefonico del Familiar</label>
+            <input type="text" class="form-control" name="Numero Telefonico del Familiar" placeholder="Tu respuesta" id="Numero Telefonico del Familiar" style="background-color: #ececec;"  required>
+          </div>
+
+          <!----- Informacion Relevante ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Informacion Relevante</label>
+            <input type="text" class="form-control" name="Informacion Relevante" placeholder="Tu respuesta" id="Informacion Relevante" style="background-color: #ececec;"  required>
+          </div>
+          
+      </div>
+      <hr />
+            <div class="row">
+                <div class="col" style="text-align: right;">
+                    <a type="button" class="btn btn-warning" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                      <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                    </svg> Cancelar</a>
+                    <button type="submit" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                      <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                      <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                    </svg> Guardar</button>
+                </div>
+            </div>
+    </form>
+    
+    
+</div>
+</div>
+
+
+<!-- //contact-section -->
+ <!-- footer -->
+ <footer class="w3l-footer-29-main">
+  <div class="footer-29-w3l py-5">
+    <div class="container py-lg-4">
+      <div class="row footer-top-29">
+        <div class="col-lg-4 col-md-6  footer-list-29 footer-1 pr-lg-5">
+          <div class="footer-logo mb-3">
+            <a class="footer-brand-logo" href="index.html">Pet<span class="sublog">spatial.</span></a>
+
+          </div>
+          <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+            tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
+          <div class="main-social-footer-29 mt-4">
+            <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+            <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+            <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+            <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+          <h6 class="footer-title-29">Subscribe Newsletter
+          </h6>
+          <form action="#" method="post" class="forms-25-info mt-4 mb-2">
+            <div class="forms-gds">
+              <input type="email" name="" placeholder="Enter your email" required="">
+              <button class="btn btn-style btn-primary">Subscribe</button>
+            </div>
+            <p class="mt-4 text-left">By submitting this form, you agree to the <a asp-area="#">privacy policy</a> and <a
+                href="#">terms of use</a></p>
+          </form>
+        </div>
+        <div class="col-lg-4 col-md-6  footer-list-29 footer-4 mt-lg-0 mt-5 pl-lg-5">
+          <h6 class="footer-title-29">Instagram
+          </h6>
+          <ul class="w3linst-imgs row">
+            <li class="col-4"><a asp-area="#"><img src="wwwroot/images/b1.jpg" alt="" class="radius-image img-fluid"></a>
+            </li>
+            <li class="col-4"><a asp-area="#"><img src="wwwroot/images/b2.jpg" alt="" class="radius-image img-fluid"></a>
+            </li>
+            <li class="col-4"><a asp-area="#"><img src="wwwroot/images/b3.jpg" alt="" class="radius-image img-fluid"></a>
+            </li>
+            <li class="col-4 mt-4"><a asp-area="#"><img src="wwwroot/images/b4.jpg" alt=""
+                  class="radius-image img-fluid"></a>
+            </li>
+            <li class="col-4 mt-4"><a asp-area="#"><img src="wwwroot/images/b5.jpg" alt=""
+                  class="radius-image img-fluid"></a>
+            </li>
+            <li class="col-4 mt-4"><a asp-area="#"><img src="wwwroot/images/b6.jpg" alt=""
+                  class="radius-image img-fluid"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //footer -->
