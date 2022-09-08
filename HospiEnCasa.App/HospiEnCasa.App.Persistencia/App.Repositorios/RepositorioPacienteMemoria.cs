@@ -28,7 +28,9 @@ namespace HospiEnCasa.App.Persistencia
          return new Paciente {Id=100, Nombre="Flor Emilia", Apellido="Gutierrez",NumeroTelefono="3127242012", Genero = Genero.femenino , Direccion="Calle 8c", Latitud=12.0f, Longitud=1.0f, Ciudad="Popayan", FechaNacimiento=new DateTime()};
       }
       Paciente IRepositorioPaciente.GetPaciente(int idPaciente){
-         return new Paciente {Id=100, Nombre="Flor Emilia", Apellido="Gutierrez",NumeroTelefono="3127242012", Genero = Genero.femenino , Direccion="Calle 8c", Latitud=12.0f, Longitud=1.0f, Ciudad="Popayan", FechaNacimiento=new DateTime()};
+         return pacientes.SingleOrDefault(paciente => paciente.Id==idPaciente);
       }
+
+      
    }
 }

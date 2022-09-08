@@ -79,3 +79,4 @@ D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Front
 D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.dll
 D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.pdb
 D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasa.App.Frontend.genruntimeconfig.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Detalles.cshtml.g.cs

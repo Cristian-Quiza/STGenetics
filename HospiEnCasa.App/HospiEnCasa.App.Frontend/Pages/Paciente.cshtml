@@ -22,6 +22,12 @@
             <td>@varPaciente.NumeroTelefono</td>
             <td>@varPaciente.Genero</td>
             <td>@varPaciente.Ciudad</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Detalles" asp-route-idPaciente="@varPaciente.Id">
+                    <i class="fas fa-info-circle"></i>
+                    Detalle
+                </a>
+            </td>
         </tr>
     }
 </table>
