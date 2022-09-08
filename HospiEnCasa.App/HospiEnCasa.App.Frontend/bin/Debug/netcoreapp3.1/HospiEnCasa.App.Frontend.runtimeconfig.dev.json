@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\XIMENA\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\XIMENA\\.nuget\\packages"
+    ]
+  }
+}

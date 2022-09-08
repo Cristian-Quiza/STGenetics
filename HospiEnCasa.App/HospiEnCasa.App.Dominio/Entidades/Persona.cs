@@ -5,7 +5,7 @@ namespace HospiEnCasa.App.Dominio
     {
         public int Id {get; set;}
         
-        public String Nombre {get; set;}
+        public string Nombre {get; set;}
 
         public string Apellido {get; set;}
 

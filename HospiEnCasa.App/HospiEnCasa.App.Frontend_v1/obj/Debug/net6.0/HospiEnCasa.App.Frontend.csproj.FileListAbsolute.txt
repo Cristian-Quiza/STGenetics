@@ -1,0 +1,93 @@
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\appsettings.Development.json
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\appsettings.json
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.staticwebassets.runtime.json
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.exe
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.deps.json
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.runtimeconfig.json
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.pdb
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.csproj.AssemblyReference.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.AssemblyInfoInputs.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.AssemblyInfo.cs
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.csproj.CoreCompileInputs.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cs
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\staticwebassets.build.json
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\staticwebassets.development.json
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\scopedcss\bundle\HospiEnCasa.App.Frontend.styles.css
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\scopedcss\projectbundle\HospiEnCasa.App.Frontend.bundle.scp.css
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\refint\HospiEnCasa.App.Frontend.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.pdb
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.genruntimeconfig.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\ref\HospiEnCasa.App.Frontend.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\appsettings.Development.json
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\appsettings.json
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.staticwebassets.runtime.json
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.exe
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.deps.json
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.runtimeconfig.json
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Frontend.pdb
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.csproj.AssemblyReference.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.AssemblyInfoInputs.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.AssemblyInfo.cs
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.csproj.CoreCompileInputs.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cs
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\staticwebassets.build.json
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\staticwebassets.development.json
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\scopedcss\bundle\HospiEnCasa.App.Frontend.styles.css
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\scopedcss\projectbundle\HospiEnCasa.App.Frontend.bundle.scp.css
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\refint\HospiEnCasa.App.Frontend.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.pdb
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.genruntimeconfig.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\ref\HospiEnCasa.App.Frontend.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Dominio.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Persistencia.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Persistencia.pdb
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net6.0\HospiEnCasa.App.Dominio.pdb
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net6.0\HospiEnCasa.App.Frontend.csproj.CopyComplete
