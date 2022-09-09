@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace HospiEnCasa.App.Frontend.Pages
 {
-    public class PrivacyModel : PageModel
+    public class RegistrosModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<RegistrosModel> _logger;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public RegistrosModel(ILogger<RegistrosModel> logger)
         {
             _logger = logger;
         }

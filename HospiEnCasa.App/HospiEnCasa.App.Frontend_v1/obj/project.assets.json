@@ -5976,32 +5976,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\XIMENA\\.nuget\\packages\\": {}
+    "C:\\Users\\cristian.quiza\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mintic\\Programacion ciclo 3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
+      "projectUniqueName": "C:\\ProyectosSoftware\\MinTic\\Programacion\\Ciclo3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Frontend_v1\\HospiEnCasa.App.Frontend.csproj",
       "projectName": "HospiEnCasa.App.Frontend",
-      "projectPath": "D:\\Mintic\\Programacion ciclo 3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\HospiEnCasa.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\XIMENA\\.nuget\\packages\\",
-      "outputPath": "D:\\Mintic\\Programacion ciclo 3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\obj\\",
+      "projectPath": "C:\\ProyectosSoftware\\MinTic\\Programacion\\Ciclo3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Frontend_v1\\HospiEnCasa.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\cristian.quiza\\.nuget\\packages\\",
+      "outputPath": "C:\\ProyectosSoftware\\MinTic\\Programacion\\Ciclo3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Frontend_v1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\XIMENA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\cristian.quiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Mintic\\Programacion ciclo 3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {
-              "projectPath": "D:\\Mintic\\Programacion ciclo 3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj"
+            "C:\\ProyectosSoftware\\MinTic\\Programacion\\Ciclo3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj": {
+              "projectPath": "C:\\ProyectosSoftware\\MinTic\\Programacion\\Ciclo3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Persistencia\\HospiEnCasa.App.Persistencia.csproj"
             }
           }
         }
