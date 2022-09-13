@@ -1,0 +1,80 @@
+﻿@page
+@model HospiEnCasa.App.Frontend.Pages.EditarPacienteModel
+@{
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/registros.css" />
+</head>
+
+
+<div class="contenedor" >
+  <div class="py-5 py-md-3">
+    <div class="col-sm-11 botones me-2" style=" color: #3E4C60">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#30b300" class="bi bi-plus-circle-fill " viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+        </svg>
+        <h5 class="titulo">Editar informacion Paciente</h5>
+    </div>
+    <hr/>
+    <form method="post">
+      <div class=" m-3 pt-3" >
+          <input type="text" asp-for="paciente.Id" name="id"/>
+          <!----- Nombre ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Nombre</label>
+            <input type="text" class="form-control" asp-for="paciente.Nombre" name="nombre" placeholder="Tu respuesta" id="nombre" style="background-color: #ececec;"  required>
+          </div> 
+          <!----- Apellidos ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Apellidos</label>
+            <input type="text" class="form-control" asp-for="paciente.Apellido" name="apellido" placeholder="Tu respuesta" id="apellido" style="background-color: #ececec;"  required> 
+          </div>
+            <!----- Tarjeta Profesional ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Direccion </label>
+              <input type="text" class="form-control" asp-for="paciente.Direccion" name="direccion" placeholder="Tu respuesta" id="direccion" style="background-color: #ececec;"  required>
+          </div>  
+        
+          <!----- Edad ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Numero Telefono</label>
+              <input type="number" class="form-control" asp-for="paciente.NumeroTelefono"name="numeroTelefono" placeholder="Tu respuesta" id="numeroTelefono" style="background-color: #ececec;"  required>
+          </div>  
+          <!----- Numero Telefonico ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Latitud</label>
+            <input type="text" class="form-control" name="latitud" asp-for="paciente.Latitud"placeholder="Tu respuesta" id="latitud" style="background-color: #ececec;"  required>
+          </div>
+          <!----- Numero Telefonico ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Longitud</label>
+            <input type="text" class="form-control" name="longitud" asp-for="paciente.Longitud"placeholder="Tu respuesta" id="longitud" style="background-color: #ececec;"  required>
+          </div>
+          <!----- Genero ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Genero</label>
+            <select name="genero" id="genero" class="form-control form-select" asp-for="paciente.Genero"style="background-color: #ececec;" required>
+              <option selected disabled >Elige</option>
+              <option value="masculino">Masculino</option>
+              <option value="femenino">Femenino</option>
+          </select>
+          </div> 
+      </div>
+      <hr />
+            <div class="row">
+                <div class="col" style="text-align: right;">
+                    <a type="button" class="btn btn-info" asp-page="./Lista">
+                      <i class="fa fa-times"></i>
+                       Cancelar
+                       </a>
+                    <button type="submit" class="btn btn-primary">
+                      <i class="fa fa-floppy-o"></i>
+                       Guardar   
+                    </button>
+                </div>
+            </div>
+    </form>
+  </div>
+</div>
+<!-- /contact-section -->

@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectosSoftware\\MinTic\\Programacion\\Ciclo3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {}
+    "D:\\Mintic\\Programacion ciclo 3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\ProyectosSoftware\\MinTic\\Programacion\\Ciclo3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
+    "D:\\Mintic\\Programacion ciclo 3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectosSoftware\\MinTic\\Programacion\\Ciclo3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+        "projectUniqueName": "D:\\Mintic\\Programacion ciclo 3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
         "projectName": "HospiEnCasa.App.Dominio",
-        "projectPath": "C:\\ProyectosSoftware\\MinTic\\Programacion\\Ciclo3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\cristian.quiza\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectosSoftware\\MinTic\\Programacion\\Ciclo3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\obj\\",
+        "projectPath": "D:\\Mintic\\Programacion ciclo 3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\XIMENA\\.nuget\\packages\\",
+        "outputPath": "D:\\Mintic\\Programacion ciclo 3\\HospiEnCasa\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cristian.quiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\XIMENA\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -1,4 +1,4 @@
-using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using HospiEnCasa.App.Dominio;
@@ -12,53 +12,57 @@ namespace HospiEnCasa.App.Persistencia
       /// Referencia al contexto de Paciente
       /// </summary>
 
-      private readonly AppContext _appContext;
+      private readonly AppContexto _AppContexto;
 
       /// <summary>
       /// Metodo Constructor Utiliza
       /// Inyeccion de dependencias para indicar el contexto a utilizar
       /// </summary>
-      /// <param name="appContext"></param>//
+      /// <param name="AppContexto"></param>//
       /// 
-      public RepositorioPaciente(AppContext appContext)
+      public RepositorioPaciente(AppContexto AppContexto)
       {
-         _appContext = appContext;
+         _AppContexto = AppContexto;
       }
 
+      public RepositorioPaciente()
+      {
+         
+      }
 
       Paciente IRepositorioPaciente.AddPaciente(Paciente paciente)   
       {
-         var pacienteAdicionado = _appContext.Pacientes.Add(paciente);
-         _appContext.SaveChanges();
+         var pacienteAdicionado = _AppContexto.Pacientes.Add(paciente);
+         _AppContexto.SaveChanges();
          return pacienteAdicionado.Entity;
 
       }
      /* void IRepositorioPaciente.DeletePaciente(int idPaciente)
       {
-          var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
+          var pacienteEncontrado = _AppContexto.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
           if (pacienteEncontrado== null)
               return;
-          _appContext.Pacientes.Remove(pacienteEncontrado);
-          _appContext.SaveChanges();
+          _AppContexto.Pacientes.Remove(pacienteEncontrado);
+          _AppContexto.SaveChanges();
           
       }*/
 
       
       IEnumerable<Paciente> IRepositorioPaciente.GetAllPacientes()
       {
-         return _appContext.Pacientes;
+         return _AppContexto.Pacientes;
       }
 
 
       Paciente IRepositorioPaciente.GetPaciente(int idPaciente) 
       {
-         return _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
+         return _AppContexto.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
       }
 
-      Paciente IRepositorioPaciente.UpdatePaciente(Paciente paciente, int idPaciente_original)
+      Paciente IRepositorioPaciente.UpdatePaciente(Paciente paciente, int idPaciente)
       {
-         var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente_original);
-         if (pacienteEncontrado! == null)
+         var pacienteEncontrado = _AppContexto.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
+         if (pacienteEncontrado != null)
          {
             pacienteEncontrado.Nombre = paciente.Nombre;
             pacienteEncontrado.Apellido = paciente.Apellido;
@@ -74,7 +78,7 @@ namespace HospiEnCasa.App.Persistencia
             pacienteEncontrado.Medico = paciente.Medico;
             pacienteEncontrado.Historia = paciente.Historia;
             */
-            _appContext.SaveChanges();
+            _AppContexto.SaveChanges();
            
          }
          return pacienteEncontrado; 

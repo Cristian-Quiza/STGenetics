@@ -102,3 +102,14 @@ C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\Hosp
 C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.dll
 C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\refint\HospiEnCasa.App.Frontend.dll
 C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.pdb
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.csproj.AssemblyReference.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.AssemblyInfoInputs.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.AssemblyInfo.cs
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.csproj.CoreCompileInputs.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cache
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.RazorAssemblyInfo.cs
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\refint\HospiEnCasa.App.Frontend.dll
+D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend_v1\obj\Debug\net6.0\HospiEnCasa.App.Frontend.pdb
