@@ -1,0 +1,42 @@
+﻿@page
+@model HomePetCareCats.App.Frontend.DetallesPropietarioModel
+@{
+}
+<head>
+    <link rel="stylesheet" href="~/css/registros.css" />
+</head>
+<h2>
+      <br>
+       </br>
+      <br>
+       </br>
+</h2>
+
+<h2>@Model.Propietario.Nombre</h2>
+
+<div>
+    Id: @Model.Propietario.Id
+</div>
+<div>
+    Apellido: @Model.Propietario.Apellido
+</div>
+<div>
+    Edad: @Model.Propietario.Edad
+</div>
+<div>
+    Genero: @Model.Propietario.Genero
+</div>
+<div>
+    Numero de telefono: @Model.Propietario.NumeroTelefono
+</div>
+<div>
+    Ciudad: @Model.Propietario.Ciudad
+</div>
+<div>
+    Direccion: @Model.Propietario.Direccion
+</div>
+<div>
+    Email: @Model.Propietario.Email
+</div>
+
+<a asp-page="./ListarPropietario" class="btn-default">Lista de Propietarios </a>

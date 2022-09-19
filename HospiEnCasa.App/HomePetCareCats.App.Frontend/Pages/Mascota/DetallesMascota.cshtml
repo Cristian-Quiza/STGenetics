@@ -1,0 +1,31 @@
+﻿@page
+@model HomePetCareCats.App.Frontend.Pages.DetallesMascotaModel
+@{
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/registros.css" />
+</head>
+<h2>
+      <br>
+       </br>
+      <br>
+       </br>
+</h2>
+
+<h2>@Model.Mascota.Nombre</h2>
+
+<div>
+    Id: @Model.Mascota.Id
+</div>
+<div>
+    Raza: @Model.Mascota.Raza
+</div>
+<div>
+    Edad: @Model.Mascota.Edad
+</div>
+<div>
+    Genero: @Model.Mascota.Genero
+</div>
+
+<a asp-page="./ListarMascota" class="btn-default">Lista de Mascotas </a>

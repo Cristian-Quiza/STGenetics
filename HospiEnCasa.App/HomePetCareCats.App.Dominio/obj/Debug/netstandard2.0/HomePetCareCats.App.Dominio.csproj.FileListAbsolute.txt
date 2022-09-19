@@ -1,0 +1,10 @@
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.0\HomePetCareCats.App.Dominio.csproj.AssemblyReference.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.0\HomePetCareCats.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.0\HomePetCareCats.App.Dominio.AssemblyInfoInputs.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.0\HomePetCareCats.App.Dominio.AssemblyInfo.cs
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.0\HomePetCareCats.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\bin\Debug\netstandard2.0\HomePetCareCats.App.Dominio.deps.json
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\bin\Debug\netstandard2.0\HomePetCareCats.App.Dominio.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\bin\Debug\netstandard2.0\HomePetCareCats.App.Dominio.pdb
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.0\HomePetCareCats.App.Dominio.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.0\HomePetCareCats.App.Dominio.pdb

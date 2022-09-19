@@ -1,0 +1,64 @@
+﻿@page
+@model HomePetCareCats.App.Frontend.ListarVeterinarioModel
+@{
+}
+<head>
+    <link rel="stylesheet" href="~/css/registros.css" />
+</head>
+
+<section class="w3l-services-6-main">
+    <div class="services-6 py-5">
+        <div class="container py-md-3">
+            <div class="row mx-1">
+        <div class="d-flex justify-content-between align-baseline">
+            <h4>
+                <i class="fa fa-paw"></i>
+                Veterinarios
+            </h4>
+            <a class="btn btn-info table-btn" asp-page="./CrearVeterinario" >
+                <i class="fa fa-plus"></i>
+                Añadir
+            </a>
+        </div>
+    </div>
+            
+            <table class="table my-3">
+
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                    <th>Genero </th>
+                    <th>Tarjeta profesional </th>
+                    <th>Acciones</th>
+                </tr>
+                @foreach (var varVeterinario in Model.ListVeterinarios)
+                {
+                    <tr>
+                        <td>@varVeterinario.Id</td>
+                        <td>@varVeterinario.Nombre</td>
+                        <td>@varVeterinario.Apellido</td>
+                        <td>@varVeterinario.Edad</td>
+                        <td>@varVeterinario.Genero</td>
+                        <td>@varVeterinario.TarjetaProfesional</td>
+                        <td>
+                            <a class="btn btn-primary table-btn" asp-page="./DetallesVeterinario" asp-route-idVeterinario="@varVeterinario.Id">
+                                <i class="fa fa-info-circle"></i>
+                                Detalle
+                            </a>
+                            <a class="btn btn-warning table-btn" asp-page="./EditarVeterinario" asp-route-idVeterinario="@varVeterinario.Id">
+                                <i class="fa fa-pencil-square-o"></i>
+                                Editar
+                            </a>
+                            <a class="btn btn-danger table-btn" asp-page="" asp-route-idVeterinario="@varVeterinario.Id">
+                                <i class="fa fa-trash"></i>
+                                Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</section>

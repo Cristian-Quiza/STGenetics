@@ -1,0 +1,62 @@
+﻿@page
+@model HomePetCareCats.App.Frontend.ListarPropietarioModel
+@{
+}
+<head>
+    <link rel="stylesheet" href="~/css/registros.css" />
+</head>
+
+<section class="w3l-services-6-main">
+    <div class="services-6 py-5">
+        <div class="container py-md-3">
+            <div class="row mx-1">
+        <div class="d-flex justify-content-between align-baseline">
+            <h4>
+                <i class="fa fa-paw"></i>
+                Propietarios
+            </h4>
+            <a class="btn btn-info table-btn" asp-page="./CrearPropietario" >
+                <i class="fa fa-plus"></i>
+                Añadir
+            </a>
+        </div>
+    </div>
+            
+            <table class="table my-3">
+
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                    <th>Genero </th>
+                    <th>Acciones</th>
+                </tr>
+                @foreach (var varPropietario in Model.ListPropietarios)
+                {
+                    <tr>
+                        <td>@varPropietario.Id</td>
+                        <td>@varPropietario.Nombre</td>
+                        <td>@varPropietario.Apellido</td>
+                        <td>@varPropietario.Edad</td>
+                        <td>@varPropietario.Genero</td>
+                        <td>
+                            <a class="btn btn-primary table-btn" asp-page="./DetallesPropietario" asp-route-idPropietario="@varPropietario.Id">
+                                <i class="fa fa-info-circle"></i>
+                                Detalle
+                            </a>
+                            <a class="btn btn-warning table-btn" asp-page="./EditarPropietario" asp-route-idPropietario="@varPropietario.Id">
+                                <i class="fa fa-pencil-square-o"></i>
+                                Editar
+                            </a>
+                            <a class="btn btn-danger table-btn" asp-page="" asp-route-idPropietario="@varPropietario.Id">
+                                <i class="fa fa-trash"></i>
+                                Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</section>

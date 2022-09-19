@@ -1,0 +1,64 @@
+﻿@page
+@model HomePetCareCats.App.Frontend.Pages.ListarMascotaModel
+
+@{
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/registros.css" />
+</head>
+
+<section class="w3l-services-6-main">
+    <div class="services-6 py-5">
+        <div class="container py-md-3">
+            <div class="row mx-1">
+        <div class="d-flex justify-content-between align-baseline">
+            <h4>
+                <i class="fa fa-paw"></i>
+                Pacientes
+            </h4>
+            <a class="btn btn-info table-btn" asp-page="./CrearMascota" >
+                <i class="fa fa-plus"></i>
+                Añadir
+            </a>
+        </div>
+    </div>
+            
+            <table class="table my-3">
+
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Raza</th>
+                    <th>Edad</th>
+                    <th>Genero </th>
+                    <th>Acciones</th>
+                </tr>
+                @foreach (var varPaciente in Model.ListMascotas)
+                {
+                    <tr>
+                        <td>@varPaciente.Id</td>
+                        <td>@varPaciente.Nombre</td>
+                        <td>@varPaciente.Raza</td>
+                        <td>@varPaciente.Edad</td>
+                        <td>@varPaciente.Genero</td>
+                        <td>
+                            <a class="btn btn-primary table-btn" asp-page="./DetallesMascota" asp-route-idMascota="@varPaciente.Id">
+                                <i class="fa fa-info-circle"></i>
+                                Detalle
+                            </a>
+                            <a class="btn btn-warning table-btn" asp-page="./EditarMascota" asp-route-idMascota="@varPaciente.Id">
+                                <i class="fa fa-pencil-square-o"></i>
+                                Editar
+                            </a>
+                            <a class="btn btn-danger table-btn" asp-page="" asp-route-idMascota="@varPaciente.Id">
+                                <i class="fa fa-trash"></i>
+                                Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</section>

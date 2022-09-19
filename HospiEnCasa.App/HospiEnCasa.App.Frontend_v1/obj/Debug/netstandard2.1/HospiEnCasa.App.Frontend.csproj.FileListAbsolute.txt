@@ -1,5 +1,0 @@
-D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netstandard2.1\HospiEnCasa.App.Frontend.csproj.AssemblyReference.cache
-D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netstandard2.1\HospiEnCasa.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
-D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netstandard2.1\HospiEnCasa.App.Frontend.AssemblyInfoInputs.cache
-D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netstandard2.1\HospiEnCasa.App.Frontend.AssemblyInfo.cs
-D:\Mintic\Programacion ciclo 3\HospiEnCasa\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\netstandard2.1\HospiEnCasa.App.Frontend.csproj.CoreCompileInputs.cache

@@ -1,0 +1,43 @@
+﻿@page
+@model HomePetCareCats.App.Frontend.DetallesVeterinarioModel
+@{
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/registros.css" />
+</head>
+<h2>
+      <br>
+       </br>
+      <br>
+       </br>
+</h2>
+
+<h2>@Model.Veterinario.Nombre</h2>
+
+<div>
+    Id: @Model.Veterinario.Id
+</div>
+<div>
+    Apellido: @Model.Veterinario.Apellido
+</div>
+<div>
+    Edad: @Model.Veterinario.Edad
+</div>
+<div>
+    Genero: @Model.Veterinario.Genero
+</div>
+<div>
+    Numero de telefono: @Model.Veterinario.NumeroTelefono
+</div>
+<div>
+    TarjetaProfesional: @Model.Veterinario.TarjetaProfesional
+</div>
+<div>
+    Especialidad: @Model.Veterinario.Especialidad
+</div>
+<div>
+    Email: @Model.Veterinario.Email
+</div>
+
+<a asp-page="./ListarVeterinario" class="btn-default">Lista de Veterinarios </a>

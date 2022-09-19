@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Mintic\\Programacion ciclo 3\\HomePetCareCats\\HomePetCareCats.App\\HomePetCareCats.App.Persistencia\\HomePetCareCats.App.Persistencia.csproj": {}
+  },
+  "projects": {
+    "D:\\Mintic\\Programacion ciclo 3\\HomePetCareCats\\HomePetCareCats.App\\HomePetCareCats.App.Dominio\\HomePetCareCats.App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Mintic\\Programacion ciclo 3\\HomePetCareCats\\HomePetCareCats.App\\HomePetCareCats.App.Dominio\\HomePetCareCats.App.Dominio.csproj",
+        "projectName": "HomePetCareCats.App.Dominio",
+        "projectPath": "D:\\Mintic\\Programacion ciclo 3\\HomePetCareCats\\HomePetCareCats.App\\HomePetCareCats.App.Dominio\\HomePetCareCats.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\XIMENA\\.nuget\\packages\\",
+        "outputPath": "D:\\Mintic\\Programacion ciclo 3\\HomePetCareCats\\HomePetCareCats.App\\HomePetCareCats.App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\XIMENA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Mintic\\Programacion ciclo 3\\HomePetCareCats\\HomePetCareCats.App\\HomePetCareCats.App.Persistencia\\HomePetCareCats.App.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Mintic\\Programacion ciclo 3\\HomePetCareCats\\HomePetCareCats.App\\HomePetCareCats.App.Persistencia\\HomePetCareCats.App.Persistencia.csproj",
+        "projectName": "HomePetCareCats.App.Persistencia",
+        "projectPath": "D:\\Mintic\\Programacion ciclo 3\\HomePetCareCats\\HomePetCareCats.App\\HomePetCareCats.App.Persistencia\\HomePetCareCats.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\XIMENA\\.nuget\\packages\\",
+        "outputPath": "D:\\Mintic\\Programacion ciclo 3\\HomePetCareCats\\HomePetCareCats.App\\HomePetCareCats.App.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\XIMENA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Mintic\\Programacion ciclo 3\\HomePetCareCats\\HomePetCareCats.App\\HomePetCareCats.App.Dominio\\HomePetCareCats.App.Dominio.csproj": {
+                "projectPath": "D:\\Mintic\\Programacion ciclo 3\\HomePetCareCats\\HomePetCareCats.App\\HomePetCareCats.App.Dominio\\HomePetCareCats.App.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

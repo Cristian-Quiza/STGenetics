@@ -1,0 +1,10 @@
+D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\bin\Debug\netstandard2.1\HomePetCareCats.App.Dominio.deps.json
+D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\bin\Debug\netstandard2.1\HomePetCareCats.App.Dominio.dll
+D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\bin\Debug\netstandard2.1\HomePetCareCats.App.Dominio.pdb
+D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.1\HomePetCareCats.App.Dominio.csproj.AssemblyReference.cache
+D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.1\HomePetCareCats.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.1\HomePetCareCats.App.Dominio.AssemblyInfoInputs.cache
+D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.1\HomePetCareCats.App.Dominio.AssemblyInfo.cs
+D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.1\HomePetCareCats.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.1\HomePetCareCats.App.Dominio.dll
+D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Dominio\obj\Debug\netstandard2.1\HomePetCareCats.App.Dominio.pdb
