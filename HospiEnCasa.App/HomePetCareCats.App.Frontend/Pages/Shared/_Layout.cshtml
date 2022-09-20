@@ -17,7 +17,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <h1> <a class="navbar-brand" href="index.html">
-              HomePet<span class="sublog">Cat.</span>
+              HomePet<span class="sublog">Cats</span>
             </a></h1>
           <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,10 +31,10 @@
                 <a class="nav-link" asp-page="/Index">Home </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" asp-page="/Index">Registros</a>
+                <a class="nav-link" asp-page="/Index">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" asp-page="/Index">Services</a>
+                <a class="nav-link" asp-page="/Privacy">Privacy</a>
               </li>               
               <li class="nav-item">
                 <a class="nav-link" asp-page="/Index">Contact</a>
@@ -43,9 +43,9 @@
             <ul class="navbar-nav search-right mt-lg-0 mt-2">
               <li class="nav-item mr-2" title="Search"><a asp-page="/Index" class="btn search-search">
                   <span class="fa fa-search" aria-hidden="true"></span></a></li>
-              <li class="nav-item mx-xl-4"><a href="tel:+(12)234-11-24"
+              <li class="nav-item mx-xl-4"><a href="tel:+(320) 2-314-694"
                   class="btn btn-primary btn-white d-none d-lg-block btn-style mr-xl-3 phone-btn"><span
-                    class="fa fa-phone mr-3" aria-hidden="true"></span> (32)234-14-94</a></li>
+                    class="fa fa-phone mr-3" aria-hidden="true"></span> (320) 2-314-694</a></li>
             </ul>
 
             <!-- //toggle switch for light and dark theme -->
@@ -150,13 +150,13 @@
       <div class="container">
         <div class="row bottom-copies">
           <p class="col-lg-8 copy-footer-29">Frontend - HomePetCareCats.Mintic2022 - <a
-              asp-area="https://www.istockphoto.com/es/fotos/cute-cat" target="_blank">
+              asp-area="https://www.istockphoto.com/es/fotos/cute-cat" asp-page="/Privacy" target="_blank">
               Privacy</a></p>
 
           <div class="col-lg-4 footer-list-29">
             <ul class="d-flex text-lg-right">
               <li><a asp-area="#careers"> Careers</a></li>
-              <li class="mx-lg-5 mx-md-4 mx-3"><a asp-area="#privacymy-lg-0 my-4">Privacy Policy</a></li>
+              <li class="mx-lg-5 mx-md-4 mx-3"><a asp-area="#privacymy-lg-0 my-4" asp-page="/Privacy">Privacy Policy</a></li>
               <li><a asp-area="contact.cshtml">Contact us</a></li>
             </ul>
           </div>
