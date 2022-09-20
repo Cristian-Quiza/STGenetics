@@ -13,7 +13,7 @@ namespace HomePetCareCats.App.Persistencia
             if(!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =HomePetCareCats");
+                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =HomePetCareCat");
                 //en azure se pone "(localdb)\MSSQLLocalDB"
             }
         }

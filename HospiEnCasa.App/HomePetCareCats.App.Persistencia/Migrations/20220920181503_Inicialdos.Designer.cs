@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HomePetCareCats.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContexto))]
-    [Migration("20220917223551_Inicialos2")]
-    partial class Inicialos2
+    [Migration("20220920181503_Inicialdos")]
+    partial class Inicialdos
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

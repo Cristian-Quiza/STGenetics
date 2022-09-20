@@ -1,13 +1,13 @@
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.csproj.AssemblyReference.cache
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.AssemblyInfoInputs.cache
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.AssemblyInfo.cs
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.csproj.CoreCompileInputs.cache
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\bin\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.deps.json
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\bin\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.dll
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\bin\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.pdb
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\bin\Debug\netstandard2.1\HomePetCareCats.App.Dominio.dll
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\bin\Debug\netstandard2.1\HomePetCareCats.App.Dominio.pdb
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.csproj.CopyComplete
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.dll
-D:\Mintic\Programacion ciclo 3\HomePetCareCats\HomePetCareCats.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.pdb
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\bin\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.deps.json
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\bin\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\bin\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.pdb
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\bin\Debug\netstandard2.1\HomePetCareCats.App.Dominio.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\bin\Debug\netstandard2.1\HomePetCareCats.App.Dominio.pdb
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.csproj.AssemblyReference.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.AssemblyInfoInputs.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.AssemblyInfo.cs
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.csproj.CopyComplete
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.dll
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Persistencia\obj\Debug\netstandard2.1\HomePetCareCats.App.Persistencia.pdb
