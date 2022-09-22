@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,6 +58,27 @@ namespace HomePetCareCats.App.Persistencia
         ProfesionalVeterinario IRepositorioVeterinario.GetVeterinario(int idVeterinario)
         {
             return _AppContexto.ProfesionalVeterinarios.FirstOrDefault(m => m.Id == idVeterinario);
+        }
+
+        void IRepositorioVeterinario.DeleteVeterinario(int idVeterinario)
+        {
+            var VeterinarioEncontrada = _AppContexto.ProfesionalVeterinarios.FirstOrDefault(m => m.Id == idVeterinario);
+            if (VeterinarioEncontrada == null)
+                return;
+            _AppContexto.ProfesionalVeterinarios.Remove(VeterinarioEncontrada);
+            _AppContexto.SaveChanges();
+        }
+        IEnumerable<ProfesionalVeterinario> IRepositorioVeterinario.GetFiltroVeterinarios(string filtro)
+        {
+            IEnumerable<ProfesionalVeterinario> listVeterinarios = _AppContexto.ProfesionalVeterinarios; // Obtiene todos las Veterinarios
+            if (listVeterinarios != null)  //Si se tienen Veterinarios
+            {
+                if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
+                {
+                    listVeterinarios = listVeterinarios.Where(m => m.Nombre.Contains(filtro)); 
+                }
+            }
+            return listVeterinarios;
         }
     }
 }

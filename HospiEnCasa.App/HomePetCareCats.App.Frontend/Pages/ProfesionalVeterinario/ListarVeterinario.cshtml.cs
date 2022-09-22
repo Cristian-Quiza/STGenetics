@@ -13,10 +13,11 @@ namespace HomePetCareCats.App.Frontend
         private readonly  IRepositorioVeterinario repo  = new RepositorioVeterinario(new Persistencia.AppContexto());
         [BindProperty(SupportsGet =true)]
         public IEnumerable <ProfesionalVeterinario> ListVeterinarios {get; set;} 
-
-        public void OnGet()
+        public string FiltroBusqueda { get; set; }
+        public void OnGet(string filtroBusqueda)
         {
-            this.ListVeterinarios = repo.GetAllVeterinarios();
+            FiltroBusqueda=filtroBusqueda;
+            this.ListVeterinarios =repo.GetFiltroVeterinarios(filtroBusqueda);
         }
     }
 }

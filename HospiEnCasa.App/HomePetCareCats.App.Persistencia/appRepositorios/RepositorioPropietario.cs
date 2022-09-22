@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -58,6 +59,28 @@ namespace HomePetCareCats.App.Persistencia
         Propietario IRepositorioPropietario.GetPropietario(int idPropietario)
         {
             return _AppContexto.Propietarios.FirstOrDefault(p => p.Id == idPropietario);
+        }
+
+        void IRepositorioPropietario.DeletePropietario(int idPropietario)
+        {
+            var PropietarioEncontrada = _AppContexto.Propietarios.FirstOrDefault(m => m.Id == idPropietario);
+            if (PropietarioEncontrada == null)
+                return;
+            _AppContexto.Propietarios.Remove(PropietarioEncontrada);
+            _AppContexto.SaveChanges();
+        }
+
+        IEnumerable<Propietario> IRepositorioPropietario.GetFiltroPropietarios(string filtro)
+        {
+            IEnumerable<Propietario> listPropietarios = _AppContexto.Propietarios; // Obtiene todos las Propietarios
+            if (listPropietarios != null)  //Si se tienen Propietarios
+            {
+                if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
+                {
+                    listPropietarios = listPropietarios.Where(p => p.Nombre.Contains(filtro)); 
+                }
+            }
+            return listPropietarios;
         }
     }
 }

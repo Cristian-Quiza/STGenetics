@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -59,5 +60,29 @@ namespace HomePetCareCats.App.Persistencia
             return mascotaEncontrada;
 
         }
+
+        void IRepositorioMascota.DeleteMascota(int idMascota)
+        {
+            var mascotaEncontrada = _AppContexto.Mascotas.FirstOrDefault(m => m.Id == idMascota);
+            if (mascotaEncontrada == null)
+                return;
+            _AppContexto.Mascotas.Remove(mascotaEncontrada);
+            _AppContexto.SaveChanges();
+        }
+
+        IEnumerable<Mascota> IRepositorioMascota.GetFiltroMascotas(string filtro)
+        {
+            IEnumerable<Mascota> listMascotas = _AppContexto.Mascotas; // Obtiene todos las mascotas
+            if (listMascotas != null)  //Si se tienen mascotas
+            {
+                if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
+                {
+                    listMascotas = listMascotas.Where(m => m.Nombre.Contains(filtro)); 
+                }
+            }
+            return listMascotas;
+        }
+
+        
     }
 }

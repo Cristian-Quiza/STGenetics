@@ -1,0 +1,63 @@
+﻿@page
+@model HomePetCareCats.App.Frontend.EliminarMascotaModel
+@{
+}
+<head>
+    <link rel="stylesheet" href="~/css/registros.css" />
+</head>
+
+
+<div class="contenedor" >
+  <div class="py-5 py-md-3">
+    <div class="col-sm-11 botones me-2" style=" color: #3E4C60">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#30b300" class="bi bi-plus-circle-fill " viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+        </svg>
+        <h5 class="titulo">Eliminar informacion Paciente</h5>
+    </div>
+    <hr/>
+    <form method="post">
+      <div class=" m-3 pt-3" >
+          <input type="hidden" asp-for="mascota.Id" name="id" id="id">
+          <!----- Nombre ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Nombre</label>
+            <input type="text" class="form-control" asp-for="mascota.Nombre" name="nombre" placeholder="Tu respuesta" id="nombre" style="background-color: #ececec;"  readonly>
+          </div> 
+          <!----- Raza ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Raza</label>
+            <input type="text" class="form-control" asp-for="mascota.Raza" name="raza" placeholder="Tu respuesta" id="raza" style="background-color: #ececec;"  readonly> 
+          </div> 
+          <!----- Edad ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Edad</label>
+              <input type="number" class="form-control" asp-for="mascota.Edad"name="edad" placeholder="Tu respuesta" id="edad" style="background-color: #ececec;"  readonly>
+          </div>  
+          <!----- Genero ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Genero</label>
+            <select name="genero" id="genero" class="form-control form-select" asp-for="mascota.Genero"style="background-color: #ececec;" readonly>
+              <option selected disabled >Elige</option>
+              <option value="masculino">Masculino</option>
+              <option value="femenino">Femenino</option>
+          </select>
+          </div> 
+      </div>
+      <hr />
+            <div class="row">
+                <div class="col" style="text-align: right;">
+                    <a type="button" class="btn btn-info" asp-page="./ListarMascota">
+                      <i class="fa fa-times"></i>
+                       Cancelar
+                       </a>
+                    <button type="submit" class="btn btn-primary">
+                      <i class="fa fa-floppy-o"></i>
+                       Borrar   
+                    </button>
+                </div>
+            </div>
+    </form>
+  </div>
+</div>
+<!-- /contact-section -->

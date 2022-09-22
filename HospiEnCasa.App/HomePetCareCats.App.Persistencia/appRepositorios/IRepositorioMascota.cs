@@ -11,5 +11,7 @@ namespace HomePetCareCats.App.Persistencia
         Mascota AddMascota(Mascota prmMascota);
         Mascota UpdateMascota(Mascota prmMascota, int idMascota_original);
         Mascota GetMascota(int idMascota);
+        IEnumerable<Mascota> GetFiltroMascotas(string filtro);
+        void DeleteMascota (int idMascota);
     }
 }

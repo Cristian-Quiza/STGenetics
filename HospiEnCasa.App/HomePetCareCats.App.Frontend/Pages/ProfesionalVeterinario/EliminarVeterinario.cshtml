@@ -1,0 +1,84 @@
+﻿@page
+@model HomePetCareCats.App.Frontend.EliminarVeterinarioModel
+@{
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/registros.css" />
+</head>
+
+
+<div class="contenedor" >
+  <div class="py-5 py-md-3">
+    <div class="col-sm-11 botones me-2" style=" color: #3E4C60">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#30b300" class="bi bi-plus-circle-fill " viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+        </svg>
+        <h5 class="titulo">Eliminar informacion veterinario</h5>
+    </div>
+    <hr/>
+    <form method="post">
+      <div class=" m-3 pt-3" >
+        <input type="hidden" asp-for="veterinario.Id" name="id"/>
+          <!----- Nombre ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Nombre</label>
+            <input type="text" class="form-control" asp-for="veterinario.Nombre" name="nombre" placeholder="Tu respuesta" id="nombre" style="background-color: #ececec;"  required>
+          </div> 
+          <!----- Apellido ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Apellido</label>
+            <input type="text" class="form-control" asp-for="veterinario.Apellido" name="apellido" placeholder="Tu respuesta" id="apellido" style="background-color: #ececec;"  required> 
+          </div> 
+          <!----- Edad ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Edad</label>
+              <input type="number" class="form-control" asp-for="veterinario.Edad"name="edad" placeholder="Tu respuesta" id="edad" style="background-color: #ececec;"  required>
+          </div>  
+          <!----- Numero Telefono ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Numero de Telefono</label>
+              <input type="number" class="form-control" asp-for="veterinario.NumeroTelefono"name="numeroTelefono" placeholder="Tu respuesta" id="numeroTelefono" style="background-color: #ececec;"  required>
+          </div> 
+          <!----- Tarjeta Profesional ----->
+          <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fw-bold">Tarjeta Profesional</label>
+              <input type="text" class="form-control" asp-for="veterinario.TarjetaProfesional"name="tarjetaProfesional" placeholder="Tu respuesta" id="tarjetaProfesional" style="background-color: #ececec;"  required>
+          </div> 
+          <!----- Especialidad ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Especialidad</label>
+            <input type="text" class="form-control" asp-for="veterinario.Especialidad" name="especialidad" placeholder="Tu respuesta" id="especialidad" style="background-color: #ececec;"  required> 
+          </div> 
+          <!----- Email ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Email</label>
+            <input type="email" class="form-control" asp-for="veterinario.Email" name="email" placeholder="Tu respuesta" id="email" style="background-color: #ececec;"  required> 
+          </div> 
+          <!----- Genero ----->
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fw-bold">Genero</label>
+            <select name="genero" id="genero" class="form-control form-select" asp-for="veterinario.Genero"style="background-color: #ececec;" required>
+              <option selected disabled >Elige</option>
+              <option value="masculino">Masculino</option>
+              <option value="femenino">Femenino</option>
+          </select>
+          </div> 
+      </div>
+      <hr />
+            <div class="row">
+                <div class="col" style="text-align: right;">
+                    <a type="button" class="btn btn-info" asp-page="./ListarVeterinario">
+                      <i class="fa fa-times"></i>
+                       Cancelar
+                       </a>
+                    <button type="submit" class="btn btn-primary">
+                      <i class="fa fa-floppy-o"></i>
+                       Guardar   
+                    </button>
+                </div>
+            </div>
+    </form>
+  </div>
+</div>
+<!-- /contact-section -->

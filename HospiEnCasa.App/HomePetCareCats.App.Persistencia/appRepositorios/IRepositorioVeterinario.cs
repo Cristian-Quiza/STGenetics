@@ -11,5 +11,7 @@ namespace HomePetCareCats.App.Persistencia
         ProfesionalVeterinario AddVeterinario(ProfesionalVeterinario prmVeterinario);
         ProfesionalVeterinario UpdateVeterinario(ProfesionalVeterinario prmVeterinario, int idVeterinario_original);
         ProfesionalVeterinario GetVeterinario(int idVeterinario);
+        IEnumerable<ProfesionalVeterinario> GetFiltroVeterinarios(string filtro);
+        void DeleteVeterinario (int idVeterinario);
     }
 }

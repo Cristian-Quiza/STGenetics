@@ -11,5 +11,7 @@ namespace HomePetCareCats.App.Persistencia
         Propietario AddPropietario(Propietario prmPropietario);
         Propietario UpdatePropietario(Propietario prmPropietario, int idPropietario_original);
         Propietario GetPropietario(int idPropietario);
+        IEnumerable<Propietario> GetFiltroPropietarios(string filtro);
+        void DeletePropietario (int idPropietario);
     }
 }

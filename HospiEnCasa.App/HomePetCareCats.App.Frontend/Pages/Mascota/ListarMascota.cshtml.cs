@@ -14,10 +14,11 @@ namespace HomePetCareCats.App.Frontend.Pages
         private readonly  IRepositorioMascota repo  = new RepositorioMascota(new Persistencia.AppContexto());
         [BindProperty(SupportsGet =true)]
         public IEnumerable <Mascota> ListMascotas {get; set;} 
-
-        public void OnGet()
+        public string FiltroBusqueda { get; set; }
+        public void OnGet(string filtroBusqueda)
         {
-            this.ListMascotas = repo.GetAllMascotas();
+            FiltroBusqueda=filtroBusqueda;
+            this.ListMascotas=repo.GetFiltroMascotas(filtroBusqueda);
         }
     }
 }

@@ -13,10 +13,11 @@ namespace HomePetCareCats.App.Frontend
         private readonly  IRepositorioPropietario repo  = new RepositorioPropietario(new Persistencia.AppContexto());
         [BindProperty(SupportsGet =true)]
         public IEnumerable <Propietario> ListPropietarios {get; set;} 
-
-        public void OnGet()
+        public string FiltroBusqueda { get; set; }
+        public void OnGet(string filtroBusqueda)
         {
-            this.ListPropietarios = repo.GetAllPropietarios();
+            FiltroBusqueda=filtroBusqueda;
+            this.ListPropietarios =repo.GetFiltroPropietarios(filtroBusqueda);
         }
     }
 }
