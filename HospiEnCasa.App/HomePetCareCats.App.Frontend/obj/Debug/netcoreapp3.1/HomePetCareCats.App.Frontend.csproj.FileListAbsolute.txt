@@ -794,3 +794,6 @@ C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\Home
 C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\HomePetCareCats.App.Frontend.dll
 C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\HomePetCareCats.App.Frontend.pdb
 C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\HomePetCareCats.App.Frontend.genruntimeconfig.cache
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Services.cshtml.g.cs
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.cshtml.g.cs
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
