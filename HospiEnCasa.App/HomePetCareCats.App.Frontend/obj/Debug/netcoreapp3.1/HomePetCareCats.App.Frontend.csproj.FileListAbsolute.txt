@@ -797,3 +797,6 @@ C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\Home
 C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Services.cshtml.g.cs
 C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.cshtml.g.cs
 C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascota\EliminarMascota.cshtml.g.cs
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\ProfesionalVeterinario\EliminarVeterinario.cshtml.g.cs
+C:\ProyectosSoftware\MinTic\Programacion\Ciclo3\HospiEnCasa\HospiEnCasa.App\HomePetCareCats.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Propietario\EliminarPropietario.cshtml.g.cs
