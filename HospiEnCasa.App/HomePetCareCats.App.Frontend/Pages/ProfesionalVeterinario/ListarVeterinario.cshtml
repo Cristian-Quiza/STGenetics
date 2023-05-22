@@ -10,7 +10,7 @@
     <div class="services-6 py-5">
         <div class="container py-md-3">
             <div class="row mx-1">
-                <div class="d-flex justify-content-between align-baseline">
+                <div class="d-flex justify-content-between align-items-baseline">
                     <h4>
                         <i class="fa fa-paw"></i>
                         Veterinarios
@@ -24,51 +24,57 @@
             <!------ Filtro ------>
             <form method="get">
                 <div class="form-group">
-                    <p>
-                        Nombre : <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda" />
-                        <button type="submit" class="btn btn-info table-btn" > 
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                    </p>
+                    <div class="input-group">
+                        <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda" placeholder=" ¿Qué estás buscando?" style="max-width: 200px;" />
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-info table-btn"> 
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </form>
-            <table class="table my-3">
 
-                <tr>
-                    <th>Id</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Edad</th>
-                    <th>Genero </th>
-                    <th>Tarjeta profesional </th>
-                    <th>Acciones</th>
-                </tr>
-                @foreach (var varVeterinario in Model.ListVeterinarios)
-                {
+                <table class="table my-3">
+
                     <tr>
-                        <td>@varVeterinario.Id</td>
-                        <td>@varVeterinario.Nombre</td>
-                        <td>@varVeterinario.Apellido</td>
-                        <td>@varVeterinario.Edad</td>
-                        <td>@varVeterinario.Genero</td>
-                        <td>@varVeterinario.TarjetaProfesional</td>
-                        <td>
-                            <a class="btn btn-primary table-btn" asp-page="./DetallesVeterinario" asp-route-idVeterinario="@varVeterinario.Id">
-                                <i class="fa fa-info-circle"></i>
-                                Detalle
-                            </a>
-                            <a class="btn btn-warning table-btn" asp-page="./EditarVeterinario" asp-route-idVeterinario="@varVeterinario.Id">
-                                <i class="fa fa-pencil-square-o"></i>
-                                Editar
-                            </a>
-                            <a class="btn btn-danger table-btn" asp-page="./EliminarVeterinario" asp-route-idVeterinario="@varVeterinario.Id">
-                                <i class="fa fa-trash"></i>
-                                Eliminar
-                            </a>
-                        </td>
+                        <th class="text-center" align="center">Id</th>
+                        <th class="text-center" align="center">Nombre</th>
+                        <th class="text-center" align="center">Apellido</th>
+                        <th class="text-center" align="center">Edad</th>
+                        <th class="text-center" align="center">Genero </th>
+                        <th class="text-center" align="center">Tarjeta profesional </th>
+                        <th class="text-center" align="center">Especialidad </th>
+                        <th class="text-center" align="center">Acciones</th>
                     </tr>
-                }
-            </table>
+                    @foreach (var varVeterinario in Model.ListVeterinarios)
+                    {
+                        <tr>
+                            <td class="text-center" align="center">@varVeterinario.Id</td>
+                            <td class="text-center" align="center">@varVeterinario.Nombre</td>
+                            <td class="text-center" align="center">@varVeterinario.Apellido</td>
+                            <td class="text-center" align="center">@varVeterinario.Edad</td>
+                            <td class="text-center" align="center">@varVeterinario.Genero</td>
+                            <td class="text-center" align="center">@varVeterinario.TarjetaProfesional</td>
+                            <td class="text-center" align="center">@varVeterinario.Especialidad</td>
+                            <td class="text-center" align="center">
+                                <a class="btn btn-primary table-btn" asp-page="./DetallesVeterinario" asp-route-idVeterinario="@varVeterinario.Id">
+                                    <i class="fa fa-info-circle"></i>
+                                    Detalle
+                                </a>
+                                <a class="btn btn-warning table-btn" asp-page="./EditarVeterinario" asp-route-idVeterinario="@varVeterinario.Id">
+                                    <i class="fa fa-pencil-square-o"></i>
+                                    Editar
+                                </a>
+                                <a class="btn btn-danger table-btn" asp-page="./EliminarVeterinario" asp-route-idVeterinario="@varVeterinario.Id">
+                                    <i class="fa fa-trash"></i>
+                                    Eliminar
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            
             @if (!Model.ListVeterinarios.Any()){
                 @if(Model.FiltroBusqueda == null){
                     <center><p>No hay registros</p></center>

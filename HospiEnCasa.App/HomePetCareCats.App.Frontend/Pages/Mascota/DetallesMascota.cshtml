@@ -6,26 +6,48 @@
 <head>
     <link rel="stylesheet" href="~/css/registros.css" />
 </head>
-<h2>
-      <br>
-       </br>
-      <br>
-       </br>
-</h2>
+<div class="detalle-container">
+    <h2 class="detalle-title">@Model.Mascota.Nombre</h2>
 
-<h2>@Model.Mascota.Nombre</h2>
+    <div class="detalle-value">
+        <span class="detalle-label">Id:</span> @Model.Mascota.Id
+    </div>
+    <div class="detalle-value">
+        <span class="detalle-label">Raza:</span> @Model.Mascota.Raza
+    </div>
+    <div class="detalle-value">
+        <span class="detalle-label">Fecha de nacimiento :</span> @Model.Mascota.Edad
+    </div>
+    <div class="detalle-value">
+        <span class="detalle-label">Género:</span> @Model.Mascota.Genero
+    </div>
 
-<div>
-    Id: @Model.Mascota.Id
-</div>
-<div>
-    Raza: @Model.Mascota.Raza
-</div>
-<div>
-    Edad: @Model.Mascota.Edad
-</div>
-<div>
-    Genero: @Model.Mascota.Genero
+    <div class="text-center">
+        <a asp-page="./ListarMascota" class="btn btn-primary">Regresar a la lista de Animales</a>
+    </div>
 </div>
 
-<a asp-page="./ListarMascota" class="btn-default">Lista de Mascotas </a>
+ <style>
+        .detalle-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f8f8f8;
+        }
+
+        .detalle-title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .detalle-label {
+            font-weight: bold;
+        }
+
+        .detalle-value {
+            margin-bottom: 10px;
+        }
+    </style>

@@ -6,38 +6,60 @@
 <head>
     <link rel="stylesheet" href="~/css/registros.css" />
 </head>
-<h2>
-      <br>
-       </br>
-      <br>
-       </br>
-</h2>
+<div class="detalle-container">
+    <h2 class="detalle-title">@Model.Veterinario.Nombre</h2>
 
-<h2>@Model.Veterinario.Nombre</h2>
+    <div class="detalle-value">
+        <span class="detalle-label">Id:</span> @Model.Veterinario.Id
+    </div>
+    <div class="detalle-value">
+        <span class="detalle-label">Apellido:</span> @Model.Veterinario.Apellido
+    </div>
+    <div class="detalle-value">
+        <span class="detalle-label">Edad:</span> @Model.Veterinario.Edad
+    </div>
+    <div class="detalle-value">
+        <span class="detalle-label">Género:</span> @Model.Veterinario.Genero
+    </div>
+    <div class="detalle-value">
+        <span class="detalle-label">Número de teléfono:</span> @Model.Veterinario.NumeroTelefono
+    </div>
+    <div class="detalle-value">
+        <span class="detalle-label">Tarjeta Profesional:</span> @Model.Veterinario.TarjetaProfesional
+    </div>
+    <div class="detalle-value">
+        <span class="detalle-label">Especialidad:</span> @Model.Veterinario.Especialidad
+    </div>
+    <div class="detalle-value">
+        <span class="detalle-label">Email:</span> @Model.Veterinario.Email
+    </div>
 
-<div>
-    Id: @Model.Veterinario.Id
-</div>
-<div>
-    Apellido: @Model.Veterinario.Apellido
-</div>
-<div>
-    Edad: @Model.Veterinario.Edad
-</div>
-<div>
-    Genero: @Model.Veterinario.Genero
-</div>
-<div>
-    Numero de telefono: @Model.Veterinario.NumeroTelefono
-</div>
-<div>
-    TarjetaProfesional: @Model.Veterinario.TarjetaProfesional
-</div>
-<div>
-    Especialidad: @Model.Veterinario.Especialidad
-</div>
-<div>
-    Email: @Model.Veterinario.Email
+    <div class="text-center">
+        <a asp-page="./ListarVeterinario" class="btn btn-primary">Regresar a la lista de Veterinarios</a>
+    </div>
 </div>
 
-<a asp-page="./ListarVeterinario" class="btn-default">Lista de Veterinarios </a>
+<style>
+    .detalle-container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f8f8f8;
+    }
+
+    .detalle-title {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .detalle-label {
+        font-weight: bold;
+    }
+
+    .detalle-value {
+        margin-bottom: 10px;
+    }
+</style>

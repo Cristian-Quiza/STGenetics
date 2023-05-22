@@ -10,7 +10,7 @@
     <div class="services-6 py-5">
         <div class="container py-md-3">
             <div class="row mx-1">
-                <div class="d-flex justify-content-between align-baseline">
+                <div class="d-flex justify-content-between align-items-baseline">
                     <h4>
                         <i class="fa fa-paw"></i>
                             Propietarios
@@ -24,33 +24,39 @@
             <!------ Filtro ------>
             <form method="get">
                 <div class="form-group">
-                    <p>
-                        Nombre : <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda" />
-                        <button type="submit" class="btn btn-info table-btn" > 
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                    </p>
+                     <div class="input-group">
+                        <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda" placeholder=" ¿Qué estás buscando?" style="max-width: 200px;" />
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-info table-btn" > 
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>   
+                        </div>
+                     </div>
                 </div>
             </form>
             <table class="table my-3">
 
-                <tr>
-                    <th>Id</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Edad</th>
-                    <th>Genero </th>
-                    <th>Acciones</th>
+                <tr> 
+                    <th class="text-center" align="center">Id</th>
+                    <th class="text-center" align="center">Nombre</th>
+                    <th class="text-center" align="center">Apellido</th>
+                    <th class="text-center" align="center">Edad</th>
+                    <th class="text-center" align="center">Genero </th>
+                    <th class="text-center" align="center">Numero </th>
+                    <th class="text-center" align="center">Correo </th>
+                    <th class="text-center" align="center">Acciones</th>
                 </tr>
                 @foreach (var varPropietario in Model.ListPropietarios)
                 {
                     <tr>
-                        <td>@varPropietario.Id</td>
-                        <td>@varPropietario.Nombre</td>
-                        <td>@varPropietario.Apellido</td>
-                        <td>@varPropietario.Edad</td>
-                        <td>@varPropietario.Genero</td>
-                        <td>
+                        <td class="text-center" align="center">@varPropietario.Id</td>
+                        <td class="text-center" align="center">@varPropietario.Nombre</td>
+                        <td class="text-center" align="center">@varPropietario.Apellido</td>
+                        <td class="text-center" align="center">@varPropietario.Edad</td>
+                        <td class="text-center" align="center">@varPropietario.Genero</td>
+                        <td class="text-center" align="center">@varPropietario.NumeroTelefono</td>
+                        <td class="text-center" align="center">@varPropietario.Email</td>
+                        <td class="text-center" align="center">
                             <a class="btn btn-primary table-btn" asp-page="./DetallesPropietario" asp-route-idPropietario="@varPropietario.Id">
                                 <i class="fa fa-info-circle"></i>
                                 Detalle

@@ -12,10 +12,10 @@
     <div class="services-6 py-5">
         <div class="container py-md-3">
             <div class="row mx-1">
-                <div class="d-flex justify-content-between align-baseline">
+                <div class="d-flex justify-content-between align-items-baseline">
                     <h4>
                         <i class="fa fa-paw"></i>
-                        Pacientes
+                        Animalies
                     </h4>
                     <a class="btn btn-info table-btn" asp-page="./CrearMascota" >
                         <i class="fa fa-plus"></i>
@@ -26,57 +26,69 @@
             <!------ Filtro ------>
             <form method="get">
                 <div class="form-group">
-                    <p>
-                        Nombre : <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda" />
-                        <button type="submit" class="btn btn-info table-btn" > 
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                    </p>
+                    <div class="input-group">
+                        <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda" placeholder=" ¿Qué estás buscando?" style="max-width: 200px;" />
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-info table-btn"> 
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-            </form>    
-            <table class="table my-3">
+            </form>
+   
+                <table class="table my-3">
+                    <thead>
+                        <tr>
+                            <th class="text-center" align="center">Id</th>
+                            <th class="text-center" align="center">Nombre animal</th>
+                            <th class="text-center" align="center">Raza</th>
+                            <th class="text-center" align="center">Fecha nacimiento</th>
+                            <th class="text-center" align="center">Genero</th>
+                            <th class="text-center" align="center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var varPaciente in Model.ListMascotas)
+                        {
+                            <tr>
+                                <td class="text-center" align="center">@varPaciente.Id</td>
+                                <td class="text-center" align="center">@varPaciente.Nombre</td>
+                                <td class="text-center" align="center">@varPaciente.Raza</td>
+                                <td class="text-center" align="center">@varPaciente.Edad</td>
+                                <td class="text-center" align="center">@varPaciente.Genero</td>
+                                <td>
+                                    <a class="btn btn-primary table-btn" asp-page="./DetallesMascota" asp-route-idMascota="@varPaciente.Id">
+                                        <i class="fa fa-info-circle"></i>
+                                        Detalle
+                                    </a>
+                                    <a class="btn btn-warning table-btn" asp-page="./EditarMascota" asp-route-idMascota="@varPaciente.Id">
+                                        <i class="fa fa-pencil-square-o"></i>
+                                        Editar
+                                    </a>
+                                    <a class="btn btn-danger table-btn" asp-page="./EliminarMascota" asp-route-idMascota="@varPaciente.Id">
+                                        <i class="fa fa-trash"></i>
+                                        Eliminar
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
 
-                <tr>
-                    <th>Id</th>
-                    <th>Nombre</th>
-                    <th>Raza</th>
-                    <th>Edad</th>
-                    <th>Genero </th>
-                    <th>Acciones</th>
-                </tr>
-                @foreach (var varPaciente in Model.ListMascotas)
+                </table>
+
+            @if (!Model.ListMascotas.Any())
+            {
+                @if (Model.FiltroBusqueda == null)
                 {
-                    <tr>
-                        <td>@varPaciente.Id</td>
-                        <td>@varPaciente.Nombre</td>
-                        <td>@varPaciente.Raza</td>
-                        <td>@varPaciente.Edad</td>
-                        <td>@varPaciente.Genero</td>
-                        <td>
-                            <a class="btn btn-primary table-btn" asp-page="./DetallesMascota" asp-route-idMascota="@varPaciente.Id">
-                                <i class="fa fa-info-circle"></i>
-                                Detalle
-                            </a>
-                            <a class="btn btn-warning table-btn" asp-page="./EditarMascota" asp-route-idMascota="@varPaciente.Id">
-                                <i class="fa fa-pencil-square-o"></i>
-                                Editar
-                            </a>
-                            <a class="btn btn-danger table-btn" asp-page="./EliminarMascota" asp-route-idMascota="@varPaciente.Id">
-                                <i class="fa fa-trash"></i>
-                                Eliminar
-                            </a>
-                        </td>
-                    </tr>
-                }
-            </table>
-            @if (!Model.ListMascotas.Any()){
-                @if(Model.FiltroBusqueda == null){
                     <center><p>No hay registros</p></center>
-                }else{
-                    <center><p>No se encontraron registros con el nombre  <span style="color:blue">"@Model.FiltroBusqueda"</span></p></center>
                 }
-                
+                else
+                {
+                    <center><p>No se encontraron registros con el nombre <span style="color:blue">"@Model.FiltroBusqueda"</span></p></center>
+                }
             }
         </div>
     </div>
 </section>
+
